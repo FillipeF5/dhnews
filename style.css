@@ -19,9 +19,7 @@ h2{
     font-size: 22px;
     font-weight: bold;
 }
-span{
-    font-weight: bold;
-}
+
 img{
     width: 100%;
 }
@@ -30,7 +28,7 @@ img{
     list-style: none; 
 }
 .social img{
-    width: 45px;
+    width: 40px;
 }
 .social li{
     display: inline-block;
