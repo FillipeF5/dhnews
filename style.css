@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;700&display=swap');
 *{
     box-sizing: border-box;
     margin-top: 0;
@@ -10,6 +9,9 @@ h1{
     color: #ec183f;
     margin-bottom: 3px;
     width: 800px;
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: bolder;
 }
 h4{
     font-size: 12px;
@@ -22,25 +24,38 @@ h2{
 
 img{
     width: 100%;
+    border-radius: 10px;
 }
-.social {
-    text-align: center; 
-    list-style: none; 
+.article2 {
+    padding-bottom: 50px;
+    border-bottom: 2px solid #CCC;
 }
-.social img{
+
+
+
+footer img{
     width: 40px;
 }
-.social li{
-    display: inline-block;
-    padding: 10px;
+
+footer { 
+    width: fit-content;
+    margin: 0 auto;
+    padding: 20px;
 }
-footer{ border-top: 2px solid rgba(73, 70, 70, 0.529);
-margin-top:50px; margin-bottom: 20px;}
+footer a {
+    padding: 5px;
+    box-shadow: 1px 1px 10px #CCC;
+    border-radius: 10px;
+    opacity: .8;
+}
+footer a:hover { 
+    box-shadow: 1px 1px 10px violet;
+    opacity:initial;
+}
+
 .container{
     width: 800px;
     padding-bottom: 30px;
     margin: 0 auto;
 }
-.artcile2{padding-bottom: 50px; margin-bottom: 50px;}
-.social li a:hover {background-color: rgba(228, 21, 66, 0.302); border-radius: 100px;}
 
