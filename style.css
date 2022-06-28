@@ -35,8 +35,13 @@ img{
 
 footer img{
     width: 40px;
+    background-color: #ec183f1c;
+    border-radius: 50%;
 }
-
+footer img:hover {
+    box-shadow: 1px 1px 15px #ec183f;
+    transition: .5s ease-in-out;
+}
 footer { 
     width: fit-content;
     margin: 0 auto;
@@ -44,18 +49,19 @@ footer {
 }
 footer a {
     padding: 5px;
-    box-shadow: 1px 1px 10px #CCC;
-    border-radius: 10px;
-    opacity: .8;
+    opacity: .9;
 }
 footer a:hover { 
-    box-shadow: 1px 1px 10px violet;
-    opacity:initial;
+    border-radius: 10px;
+    opacity: initial;
 }
 
+
 .container{
-    width: 800px;
+    width: 980px;
     padding-bottom: 30px;
     margin: 0 auto;
+    background-color: rgba(204, 204, 204, 0.145);
+    padding: 20px;
 }
 
